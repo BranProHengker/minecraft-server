@@ -1,59 +1,47 @@
-[03:33:14] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[03:33:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[03:33:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:33:15] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/sit-1.7.1.jar'...
-[03:33:16] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/sit-1.7.1.jar' in 1304ms.
-[03:33:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[03:33:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[03:43:56] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[03:43:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[03:43:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:43:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[03:43:56] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - SetHome (0.1), SimpleTPA (1.3), Sit (1.7.1)
-[03:33:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:33:22] [ServerMain/INFO]: Loaded 1290 recipes
-[03:33:22] [ServerMain/INFO]: Loaded 1399 advancements
-[03:33:23] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[03:33:23] [Server thread/INFO]: Loading properties
-[03:33:23] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[03:33:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:33:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:33:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:33:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[03:33:24] [Server thread/INFO]: Default game type: SURVIVAL
-[03:33:24] [Server thread/INFO]: Generating keypair
-[03:33:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:33:25] [Server thread/INFO]: Using epoll channel type
-[03:33:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:33:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[03:33:25] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
-[03:33:25] [Server thread/INFO]: [SimpleTPA] Loading server plugin SimpleTPA v1.3
-[03:33:25] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v0.1
-[03:33:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:33:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:33:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:33:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:33:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:33:25] [Server thread/INFO]: Preparing level "world"
-[03:33:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:33:26] [Server thread/INFO]: Time elapsed: 1285 ms
-[03:33:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:33:27] [Server thread/INFO]: Time elapsed: 197 ms
-[03:33:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:33:27] [Server thread/INFO]: Time elapsed: 122 ms
-[03:33:27] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
-[03:33:27] [Server thread/INFO]: [SimpleTPA] Enabling SimpleTPA v1.3
-[03:33:27] [Server thread/INFO]: [SimpleTPA] Existing config.yml overwritten with default values.
-[03:33:27] [Server thread/INFO]: [SimpleTPA] SimpleTPA Activated!
-[03:33:27] [Server thread/INFO]: [SetHome] Enabling SetHome v0.1
-[03:33:27] [Server thread/INFO]: [spark] Starting background profiler...
-[03:33:28] [Server thread/INFO]: Done preparing level "world" (3.429s)
-[03:33:28] [Server thread/INFO]: Running delayed init tasks
-[03:33:28] [Server thread/INFO]: Done (15.669s)! For help, type "help"
-[03:33:28] [Server thread/INFO]: Timings Reset
-[03:33:37] [Server thread/INFO]: Server Plugins (3):
-[03:33:37] [Server thread/INFO]: Bukkit Plugins:
-[03:33:37] [Server thread/INFO]:  - SetHome, SimpleTPA, Sit
-[03:35:05] [User Authenticator #0/INFO]: UUID of player Avttr is 0a9a9033-de63-372e-a383-1ca7076a81aa
-[03:35:13] [Server thread/INFO]: Avttr joined the game
-[03:35:13] [Server thread/INFO]: Avttr[/127.19.225.213:58543] logged in with entity id 56 at ([world]-426.4767274569959, 70.0, -365.61638279283557)
-[03:36:04] [Server thread/INFO]: Avttr issued server command: /sit:sit
-[03:37:12] [Server thread/INFO]: Villager Villager['Villager'/19, uuid='bd44bd79-e0a0-4faf-9e59-02f10ac06618', l='ServerLevel[world]', x=-436.35, y=69.00, z=-339.22, cpos=[-28, -22], tl=82416, v=true] died, message: 'Villager was slain by Avttr'
-[03:39:36] [Server thread/INFO]: Avttr lost connection: Disconnected
-[03:39:36] [Server thread/INFO]: Avttr left the game
+[03:44:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:44:02] [ServerMain/INFO]: Loaded 1290 recipes
+[03:44:02] [ServerMain/INFO]: Loaded 1399 advancements
+[03:44:02] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[03:44:02] [Server thread/INFO]: Loading properties
+[03:44:02] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[03:44:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:44:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:44:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:44:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[03:44:04] [Server thread/INFO]: Default game type: SURVIVAL
+[03:44:04] [Server thread/INFO]: Generating keypair
+[03:44:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:44:04] [Server thread/INFO]: Using epoll channel type
+[03:44:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:44:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:44:04] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
+[03:44:04] [Server thread/INFO]: [SimpleTPA] Loading server plugin SimpleTPA v1.3
+[03:44:04] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v0.1
+[03:44:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:44:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:44:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:44:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:44:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:44:04] [Server thread/INFO]: Preparing level "world"
+[03:44:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:44:06] [Server thread/INFO]: Time elapsed: 1463 ms
+[03:44:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:44:07] [Server thread/INFO]: Time elapsed: 198 ms
+[03:44:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:44:07] [Server thread/INFO]: Time elapsed: 92 ms
+[03:44:07] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
+[03:44:07] [Server thread/INFO]: [SimpleTPA] Enabling SimpleTPA v1.3
+[03:44:07] [Server thread/INFO]: [SimpleTPA] Existing config.yml overwritten with default values.
+[03:44:07] [Server thread/INFO]: [SimpleTPA] SimpleTPA Activated!
+[03:44:07] [Server thread/INFO]: [SetHome] Enabling SetHome v0.1
+[03:44:07] [Server thread/INFO]: [spark] Starting background profiler...
+[03:44:07] [Server thread/INFO]: Done preparing level "world" (3.004s)
+[03:44:07] [Server thread/INFO]: Running delayed init tasks
+[03:44:07] [Server thread/INFO]: Done (12.673s)! For help, type "help"
+[03:44:07] [Server thread/INFO]: Timings Reset
